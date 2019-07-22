@@ -5,7 +5,7 @@ core: 8.x
 base theme: classy
 
 libraries:
-    - twiggy/global
+    - twiggy/bootstrap
 
 regions:
     header: Header

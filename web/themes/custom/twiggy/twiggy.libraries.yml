@@ -1,6 +1,9 @@
-global:
+bootstrap:
+    version: 4.3.1
     css:
         theme:
-            css/styles.css: {}
+            css/bootstrap.min.css: {}
+            css/bootstrap-theme.min.css: {}
     js:
-        js/scripts.js: {}
+        js/bootstrap.min.js: {}
+        dependencies: - core/jquery
