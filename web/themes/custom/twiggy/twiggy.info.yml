@@ -1,0 +1,22 @@
+name: Twiggy
+type: theme
+description: 'A simple theme'
+core: 8.x
+base theme: classy
+
+libraries:
+    - twiggy/global
+
+regions:
+    header: Header
+    primary_menu: 'Primary menu'
+    secondary_menu: 'Secondary menu'
+    breadcrumb: Breadcrumb
+    help: Help
+    hightlighted: Hightlighted
+    content: Content
+    sidebar_first: 'Left sidebar'
+    sidebar_second: 'Right sidebar'
+    footer: Footer
+    page_top: 'Page type'
+    page_bottom: 'Page bottom'
